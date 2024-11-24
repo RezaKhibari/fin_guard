@@ -9,6 +9,9 @@ import { BudgetCategoriesComponent } from './components/budget-categories/budget
 import { GoalsComponent } from './components/goals/goals.component';
 import { CurrenciesComponent } from './components/currencies/currencies.component';
 import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -17,12 +20,15 @@ import { HttpClientModule } from '@angular/common/http';
     TransactionsComponent,
     BudgetCategoriesComponent,
     GoalsComponent,
-    CurrenciesComponent
+    CurrenciesComponent,
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     HttpClientModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
