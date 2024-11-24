@@ -1,0 +1,103 @@
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary py-3">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand fw-bold" href="#">FinGuard</a>
+
+    <!-- Toggle Button for Mobile View -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navigation Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Budget</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Goals</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Transactions</a>
+        </li>
+        <li class="nav-item">
+          <!-- Modern Button -->
+          <a class="btn btn-light btn-sm fw-bold ms-3" href="#">Get Started</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Hero Section -->
+<header class="bg-primary text-white text-center py-5">
+  <div class="container">
+    <h1>Welcome to FinGuard</h1>
+    <p class="lead">Your trusted companion for financial planning and management</p>
+    <a href="#" class="btn btn-light btn-lg mt-3">Get Started</a>
+  </div>
+</header>
+
+<!-- Features Section -->
+<section class="py-5">
+  <div class="container">
+    <div class="row text-center">
+      <div data-aos="fade-up" class="col-md-4">
+        <i class="bi bi-bar-chart-fill display-4 text-primary"></i>
+        <h3 class="mt-3">Budget Tracking</h3>
+        <p>Easily set and monitor your budget to achieve financial goals.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-graph-up-arrow display-4 text-primary"></i>
+        <h3 class="mt-3">Analytics</h3>
+        <p>Gain insights into your spending and income trends with detailed analytics.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-currency-exchange display-4 text-primary"></i>
+        <h3 class="mt-3">Multi-Currency</h3>
+        <p>Manage your finances across multiple currencies with ease.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="bg-light py-5">
+  <div class="container text-center">
+    <h2>What Our Users Say</h2>
+    <p class="lead">Join thousands of satisfied users managing their finances smarter.</p>
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <p class="text-muted">"FinGuard has transformed the way I manage my money."</p>
+        <strong>- John Doe</strong>
+      </div>
+      <div class="col-md-4">
+        <p class="text-muted">"I love the analytics and goal-setting features!"</p>
+        <strong>- Jane Smith</strong>
+      </div>
+      <div class="col-md-4">
+        <p class="text-muted">"A must-have for anyone serious about budgeting."</p>
+        <strong>- David Lee</strong>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  <div class="container">
+    <p>&copy; 2024 FinGuard. All Rights Reserved.</p>
+  </div>
+</footer>
+<router-outlet />
